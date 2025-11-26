@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
 import "./globals.css";
 import ViewCanvas from "@/components/ViewCanvas";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const mulish = Mulish({
   subsets: ["cyrillic"],
